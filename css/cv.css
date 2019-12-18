@@ -1,0 +1,33 @@
+body {
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 16pt;
+    margin: 0;
+    padding: 5px 15px;
+    border: 0;
+}
+address {
+    text-align: right;
+    font-size: 0.7em;
+}
+table {
+    width: 100%;
+}
+li {
+    margin: 10px 0;
+}
+ul + li {
+    color: red;
+}
+#name {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+}
+.centered, .career-goals {
+    text-align: center;
+}
+.company {
+    font-weight: bold;
+}
+.jobtitle, .duration {
+    font-style: italic;
+}

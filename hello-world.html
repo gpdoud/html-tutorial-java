@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script lang="javascript">
+        function OnClick() {
+            var inputCtrl = document.getElementById("abc");
+            var theText = inputCtrl.value;
+            inputCtrl.style.backgroundColor = "yellow";
+            console.log("The text is:", theText);
+        }
+    </script>
+</head>
+<body>
+    <input id="abc" type="text" value="The default text">
+    <button onclick="OnClick()">Click me!</button>
+    
+</body>
+</html>
