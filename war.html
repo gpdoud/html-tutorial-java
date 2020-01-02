@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>War</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="js/war.js"></script>
+    <link href="css/war.css" rel="stylesheet">
+</head>
+
+<body onload="loaded()">
+    <div>
+        <label>My score: <span id="myscore"></span></label> | <label>Opp score: <span id="oppscore"></span></label>
+    </div>
+    
+    <div>
+        <label>My number: <input id="mynbr" type="text" size="10" disabled></label>
+        <button onclick="getnbr()" class="btn btn-primary">Play</button>
+    </div>
+
+    <div>
+        <button onclick="winner()" class="btn btn-success">Winner</button>
+        <button onclick="lower()" class="btn btn-danger">Loser</button>
+    </div>
+</body>
+
+</html>
