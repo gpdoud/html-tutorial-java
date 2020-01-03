@@ -16,7 +16,7 @@ const winner = () => {
     opppoints--;
     display();
 }
-const lower = () => {
+const loser = () => {
     mypoints--;
     opppoints++;
     display();

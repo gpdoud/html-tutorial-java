@@ -6,10 +6,22 @@ Each player starts with 20 points. Each player presses a button to generate a ra
 
 When one player's score is zero, that player loses.
 
-+--------------------------------------------+
-| My Score: 20 | Opp's Score: 20             |
-|                                            |
-| My Number: (_______________) [PLAY]        |
-|                                            |
-| [Winner] [Loswer]                          |
-+--------------------------------------------+
++--------------------------------------------------+
+| My Score: 20 | Opp's Score: 20                   |
+|                                                  |
+| My Number: (_______________) [PLAY]              |
+|                                                  |
+| [Winner] [Loswer]                                |
++--------------------------------------------------+
+
+## War2
+
+War2 is everything that War is except when there is a tie. In that case, the point value for the next game is changed from 1 to 5 meaning the winner gets 5 points while the loser loses 5 points. To designate a tie, another button is created between the Winner and Loser button called WAR!
+
++-------------------------------------------------+
+| My Score: 20 | Opp's Score: 20 | Point Value: 1 |
+|                                                 |
+| My Number: (_______________) [PLAY]             |
+|                                                 |
+| [Winner] | [WAR!] | [Loser]                     |
++-------------------------------------------------+
