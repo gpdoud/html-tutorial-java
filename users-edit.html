@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/users-edit.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <table class="table table-sm">
+        <tr>
+            <td>Id</td>
+            <td><input id="pid" type="text" disabled></td>
+        </tr>
+        <tr>
+            <td>Username/Password</td>
+            <td>
+                <input id="pusername" type="text" placeholder="Username">
+                <input id="ppassword" type="password" placeholder="Password">
+            </td>
+        </tr>
+        <tr>
+            <td>Firstname/Lastname</td>
+            <td>
+                <input id="pfirstname" type="text" placeholder="Firstname">
+                <input id="plastname" type="text" placeholder="Lastname">
+            </td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td><input id="pphone" type="text"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input id="pemail" type="text"></td>
+        </tr>
+        <tr>
+            <td>Reviewer</td>
+            <td><input id="previewer" type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Admin</td>
+            <td><input id="padmin" type="checkbox"></td>
+        </tr>
+    </table>
+    <button id="save" class="btn btn-primary">Save</button>
+</body>
+
+</html>

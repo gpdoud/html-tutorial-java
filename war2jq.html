@@ -3,13 +3,13 @@
 
 <head>
     <title>War</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- <script src="js/war2.js"></script> -->
     <script src="js/war2jq.js"></script>
     <link href="css/war2.css" rel="stylesheet">
 </head>
 
-<body onload="loaded()">
+<body>
     <div>
         <label>My score: <span id="myscore"></span></label> | 
         <label>Opp score: <span id="oppscore"></span></label> |
@@ -18,16 +18,14 @@
     
     <div>
         <label>My number: <input id="mynbr" type="text" size="10" disabled></label>
-        <button onclick="getnbr()" class="btn btn-primary">Play</button>
+        <button id="getnbr" class="btn btn-primary">Play</button>
     </div>
 
     <div>
-        <button onclick="winner()" class="btn btn-success">Winner</button> |
-        <button onclick="tie()" class="btn btn-warning" id="war">Tie</button> |
-        <button onclick="loser()" class="btn btn-danger">Loser</button>
+        <button id="winner" class="btn btn-success">Winner</button> |
+        <button id="tie" class="btn btn-warning">Tie</button> |
+        <button id="loser" class="btn btn-danger">Loser</button>
         <label id="msg"> | This means WAR!!!</label>
         
     </div>
-</body>
-
-</html>
+</body

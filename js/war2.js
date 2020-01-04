@@ -1,9 +1,8 @@
-let gamePoints = 20;
+const gamePoints = 20;
 let pointValue = 1;
 let mypoints = gamePoints;
 let opppoints = gamePoints;
 let myNbr = 0;
-let oppNbr = 0;
 
 const loaded = () => {
     display();

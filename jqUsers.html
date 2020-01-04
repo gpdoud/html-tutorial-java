@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jqUsers.js"></script>
+    <title>Users</title>
+</head>
+<body>
+    <div>
+        <table class="table table-sm">
+            <tr><td>Id</td><td>Name</td><td>Color</td><td>Number</td><td>&nbsp;</td></tr>
+            <tr>
+                <td><input id="pid" type="text" size="5"></td>
+                <td><input id="name" type="text" size="15"></td>
+                <td><input id="color" type="text" size="10"></td>
+                <td><input id="nbr" type="text" size="5"></td>
+                <td><button id="add">Add</button></td>
+            </tr>
+        </table>
+    </div>
+    <h3>List of users</h3>
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Name</td>
+                <td>Color</td>
+                <td>Number</td>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+        <tfoot></tfoot>
+    </table>
+</body>
+</html>
